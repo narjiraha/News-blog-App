@@ -1,0 +1,136 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+
+/* Parent Container */
+.fitness-parent-container {
+    display: flex;
+    justify-content: space-between;
+    padding: 20px;
+}
+
+/* Left Container */
+.fitness-left-container {
+    flex: 1;
+    margin-right: 20px;
+}
+
+/* Right Container */
+.fitness-right-container {
+    flex: 1;
+}
+
+/* News Card */
+.news-card {
+    margin-bottom: 20px;
+}
+
+/* News Image */
+.news-img img {
+    width: 100%;
+    max-width: 200px;
+    max-height: 150px;
+    object-fit: cover;
+    border-radius: 4px;
+}
+
+/* News Content */
+.news-content {
+    padding: 10px;
+}
+
+/* News Heading */
+.news-content h2 {
+    font-size: 1.2rem;
+    margin-bottom: 5px;
+}
+
+/* News Detail */
+.news-detail {
+    font-size: 1rem;
+    color: #444;
+}
+
+/* Published Date */
+.published-date {
+    font-size: 0.8rem;
+    color: #888;
+}
+
+/* Top Post Heading */
+.fitness-right-container h1 {
+    font-size: 1.5rem;
+    margin-bottom: 10px;
+}
+
+/* Advertising Box */
+.advertising-box {
+    margin-top: 20px;
+    background-color: #f0f0f0;
+    padding: 20px;
+    border-radius: 4px;
+}
+
+/* Advertising Heading */
+.advertising-box h1 {
+    font-size: 1.5rem;
+    margin-bottom: 10px;
+}
+
+.fitness-right{
+display: flex;
+flex-direction: column;
+flex-direction: column-reverse;
+}
+
+/* Mobile View */
+@media (max-width: 767px) {
+    .fitness-parent-container {
+        flex-direction: column;
+        gap: 20px;
+    }      
+
+    .advertising-box {
+        margin-top: 10px;
+    }
+
+    .fitness-left-container{
+        margin-top: 5rem;
+    }
+
+}
+
+/* Tablet View */
+@media (min-width: 768px) and (max-width: 1023px) {
+    .fitness-parent-container {
+        flex-direction: row;
+        gap: 20px;
+    }
+
+    
+    .fitness-left-container,
+    .fitness-right-container {
+        flex: 1;
+        margin-right: 20px;
+    }
+
+         .fitness-left-container {
+             margin-top: 5rem;
+         }
+}
+
+@media screen and (min-width:768px) and (max-width:1024px) {
+.fitness-parent-container {
+        display: flex;
+        flex-direction: column;
+    }
+.fitness-left-container {
+ margin-top: 7rem;
+}
+                 .advertising_box video {
+                     width: 700px;
+                 }
+}

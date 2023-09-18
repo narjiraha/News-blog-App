@@ -1,0 +1,35 @@
+*
+{
+    margin: 0;
+    padding: 0;
+}
+
+
+h1 {
+    font-family: "Arial", sans-serif;
+    text-align: center;
+}
+
+.the-siren {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.the {
+    font-size: 30px;
+    font-weight: bold;
+    writing-mode: vertical-lr;
+}
+
+
+.siren {
+    font-size: 40px;
+    font-weight: bold;
+    color: #000000;
+
+}
+
+.the-siren:hover {
+    cursor: pointer;
+}

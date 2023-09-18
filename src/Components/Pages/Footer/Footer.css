@@ -1,0 +1,91 @@
+
+html {
+    scroll-behavior: smooth;
+}
+
+.the-sirelogo-container{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    /* margin: 20px; */
+}
+
+.the-sirelogo-container h1{
+    color: white;
+}
+.the-siren-logo{
+    height: 80px;
+    width: 80px;
+    border-radius:30px ;
+}
+.footer-container {
+    border-radius: 10px;
+    padding: 20px;
+    /* margin: 10px; */
+    display: flex;
+    justify-content: space-around;
+    background: linear-gradient(to bottom, #008080,rgba(65, 58, 58, 0.13));
+}
+
+.text {
+    text-align: center;
+    padding: 5px;
+    color: black;
+}
+
+.ul-list {
+    text-align: center;
+    color: black;
+}
+
+.ul-list {
+    list-style: none;
+}
+
+.link-text{
+    color: black;
+    text-decoration: none;
+}
+
+.social-medIcons{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+/* Mobile View */
+@media screen and  (width <= 600px) {
+    .footer-container {
+        flex-direction: column;
+        align-items: center;
+        padding: 10px;
+        width: 99vw;
+    }
+
+    .text,
+    .ul-list,
+    .link-text {
+        text-align: center;
+    }
+
+    .ul-list {
+        padding-top: 10px;
+    }
+}
+
+/* Tablet View */
+@media (min-width: 768px) and (max-width: 1023px) {
+    .footer-container {
+        flex-direction: column;
+        align-items: center;
+    }
+
+    .text,
+    .ul-list,
+    .link-text {
+        text-align: center;
+    }
+
+    .ul-list {
+        padding-top: 40px;
+    }
+}

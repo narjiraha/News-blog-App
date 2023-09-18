@@ -1,0 +1,36 @@
+.help-container {
+    padding: 20px;
+}
+
+.help-content {
+    max-width: 800px;
+    margin: 0 auto;
+}
+
+h1 {
+    text-align: center;
+    margin-bottom: 20px;
+}
+
+h2 {
+    margin-top: 20px;
+}
+
+.faq-list,
+.resource-list {
+    padding-left: 20px;
+    margin-top: 10px;
+}
+
+.faq-list li,
+.resource-list li {
+    margin-bottom: 10px;
+}
+
+.resource-list li a {
+    color: #007bff;
+    /* Blue link color */
+    text-decoration: none;
+}
+
+/* Additional styling can be added as needed */

@@ -1,0 +1,79 @@
+.contact-container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 20px;
+}
+
+.contact-info {
+    margin-bottom: 30px;
+    text-align: center;
+}
+
+.list-item{
+    list-style: none;
+}
+.contact-form {
+    width: 50%;
+    border: 1px solid #ccc;
+    padding: 20px;
+    border-radius: 5px;
+}
+
+.contact-form h2 {
+    margin-top: 0;
+}
+
+.contact-form label {
+    display: block;
+    margin-bottom: 5px;
+}
+
+.contact-form input,
+.contact-form textarea {
+    width: 100%;
+    padding: 8px;
+    margin-bottom: 10px;
+    border: 1px solid #ccc;
+    border-radius: 3px;
+}
+
+.contact-form button {
+    background-color: #007bff;
+    color: white;
+    padding: 10px 20px;
+    border: none;
+    border-radius: 3px;
+    cursor: pointer;
+}
+
+/* Style for removing bullets from the list */
+.ul-list {
+    padding-left: 0;
+}
+
+.ul-list li {
+    margin-bottom: 5px;
+    list-style-type: none;
+    /* This removes the bullet */
+}
+
+.contact-container {
+    background-color: #f5f5f5;
+    /* Light gray */
+}
+
+/* Text colors */
+h1 {
+    color: #333;
+    /* Dark gray */
+}
+
+.contact-info {
+    color: #555;
+    /* Medium gray */
+}
+
+.contact-form h2 {
+    color: #007bff;
+}

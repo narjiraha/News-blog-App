@@ -1,0 +1,112 @@
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+/* Style for the parent container */
+.bollywood-parent-container {
+    display: flex;
+    justify-content: space-between;
+    align-items: flex-start;
+    gap: 30px
+}
+
+h1 {
+    font-size: 24px;
+    padding: 10px;
+}
+
+h2{
+    text-align: center;
+}
+
+/* Style for the left container */
+.bollywood-left-container{
+    flex: 1;
+    padding: 10px;
+}
+
+.news-card {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+}
+
+.news-img {
+    flex: 0 0 150px;
+    margin-right: 10px;
+}
+
+.news-img img {
+    height: 500px;
+    width: 500px;
+}
+
+.news-content {
+    flex: 1;
+}
+
+.bollywood-news-container-right{
+    display: flex;
+    flex-direction: column;
+    flex-direction: column-reverse;
+}
+
+
+/* Style for the right container */
+.bollywood-right-container {
+    flex: 1;
+    margin: 20px;
+}
+
+.published-date {
+    padding: 10px;
+}
+
+.news-detail {
+    padding: 10x;
+    margin: 10px;
+}
+
+.advertising-box {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+
+@media screen and (min-width:300px) and (max-width:760px){
+.bollywood-parent-container {
+    display: flex;
+    flex-direction: column;
+    }
+        .bollywood-left-container {
+            margin-top: 5rem;
+        }
+
+        .news-card{
+            box-shadow: none;
+        }
+}
+
+
+
+@media screen and (min-width:768px) and (max-width:1024px) {
+.bollywood-parent-container {
+        display: flex;
+        flex-direction: column;
+    }
+
+ .bollywood-left-container {
+       margin-top: 7rem;
+       }
+                   .news-card {
+                       box-shadow: none;
+                   }
+         .advertising_box video {
+         width: 700px;
+     }
+}
